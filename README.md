@@ -24,7 +24,20 @@ Este software é **100% Portátil (Standalone)**. Não é necessário instalar o
 3. Salve em qualquer pasta do seu computador ou Pen Drive.
 4. Clique duas vezes no executável para abrir e usar!
 
-*(Nota: Como o executável não possui assinatura digital de desenvolvedor corporativo, o Windows Defender pode exibir um alerta de "Software Desconhecido" no primeiro uso. Basta clicar em "Mais informações" e "Executar assim mesmo").*
+---
+
+## ⚠️ Aviso de Segurança e Antivírus (Falsos Positivos)
+
+Como este é um software de diagnóstico de rede, ele executa operações profundas no sistema (como envio de pacotes ICMP, varredura de portas TCP e medições de tráfego de banda). 
+
+Por ser um aplicativo desenvolvido de forma independente e distribuído sem uma assinatura digital corporativa paga (Certificado *Code Signing*), o **Windows Defender, SmartScreen ou navegadores de internet podem sinalizá-lo incorretamente como software suspeito (Falso Positivo)**.
+
+**Como resolver caso seja bloqueado:**
+*   **No Windows Defender/SmartScreen:** Clique em **"Mais informações"** e depois em **"Executar assim mesmo"**.
+*   **No Antivírus:** Acesse o histórico de proteção e clique em **"Permitir no dispositivo"** ou **"Restaurar"** o arquivo executável.
+*   O aplicativo é 100% seguro, de código aberto (open-source) e seu comportamento pode ser auditado a qualquer momento.
+
+---
 
 ## 👨‍💻 Desenvolvedor
 
